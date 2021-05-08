@@ -3,6 +3,8 @@
 }
 
 #navbar { 
+    padding-top:20px;
+    
     position: fixed; 
     top: 0px; 
     left: 0px; 
@@ -27,12 +29,17 @@
 
 nav ul{
     list-style-type: none;
+<<<<<<< HEAD
     padding-left: 0px;
+=======
+    padding-left:0px;
+>>>>>>> cecaf9aa8f99cc0b7642d841c2a0831f391d4579
 }
 
 nav li{
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 15px;
     border-top: 1px solid black;
     position: relative; 
     width: 100%;
@@ -40,8 +47,15 @@ nav li{
 a{
     text-decoration: none;
 }
+code{
+    padding:5px;
+    background-color: rgb(238, 224, 224);
+}
 
 header{
     font-size: 15px;
     font-weight: bold;
+}
+.first-header{
+    padding-left:12px 12px 12px 12px;
 }
