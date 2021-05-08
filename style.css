@@ -4,6 +4,8 @@
 }
 
 #navbar { 
+    padding-top:20px;
+    
     position: fixed; 
     top: 0px; 
     left: 0px; 
@@ -28,10 +30,12 @@
 
 ul{
     list-style-type: none;
+    padding-left:0px;
 }
 nav li{
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 15px;
     border-top: 1px solid black;
     position: relative; 
     width: 100%;
@@ -39,8 +43,15 @@ nav li{
 a{
     text-decoration: none;
 }
+code{
+    padding:5px;
+    background-color: rgb(238, 224, 224);
+}
 
 header{
     font-size: 15px;
     font-weight: bold;
+}
+.first-header{
+    padding-left:12px 12px 12px 12px;
 }
