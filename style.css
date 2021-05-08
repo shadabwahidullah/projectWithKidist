@@ -1,5 +1,4 @@
-#main-doc{
-    
+#main-doc{  
     margin-left: 150px;
 }
 
@@ -26,9 +25,11 @@
     color: black;
 }
 
-ul{
+nav ul{
     list-style-type: none;
+    padding-left: 0px;
 }
+
 nav li{
     padding-top: 10px;
     padding-bottom: 10px;
