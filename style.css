@@ -4,7 +4,6 @@
 
 #navbar { 
     padding-top:20px;
-    
     position: fixed; 
     top: 0px; 
     left: 0px; 
@@ -29,11 +28,7 @@
 
 nav ul{
     list-style-type: none;
-<<<<<<< HEAD
     padding-left: 0px;
-=======
-    padding-left:0px;
->>>>>>> cecaf9aa8f99cc0b7642d841c2a0831f391d4579
 }
 
 nav li{
@@ -58,4 +53,12 @@ header{
 }
 .first-header{
     padding-left:12px 12px 12px 12px;
+}
+
+@media (min-width: 480px){
+
+    *{
+        display: flex;
+        flex-direction: column;
+    }
 }
